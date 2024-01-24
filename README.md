@@ -1,2 +1,3 @@
-# goit-markup-hw-05
- home work 5 - html
+# goit-markup-hw-06
+ home work 6 - html
+create responsive full site
