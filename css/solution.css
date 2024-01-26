@@ -1,0 +1,85 @@
+.solution {
+    padding: 72px 0;
+    background-color: rgba(46, 47, 66, 0.70);
+    background-image:
+        linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+        url('../images/main/hero/hero-mob-bg-min.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-resolution: 192dpi) {
+    .solution {
+        background-image:
+        linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+        url('../images/main/hero/hero-mob-bg@2x-min.jpg');
+    }
+}
+
+.solution-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    padding: 0 60px;
+}
+
+.solution-button {
+    margin: 72px auto 0;
+}
+
+@media (min-width: 768px) {
+    .solution {
+        padding: 112px 0;
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url('../images/main/hero/hero-tab-bg-min.jpg');
+}
+
+    @media (min-resolution: 192dpi) {
+        .solution {
+            background-image:
+                linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+                url('../images/main/hero/hero-tab-bg@2x-min.png');
+        }
+    }
+
+    .solution-title {
+        font-size: 56px;
+        line-height: 1.07;
+        padding: 0 120px;
+    }
+
+    .solution-button {
+        margin: 36px auto 0;
+    }
+}
+
+@media (min-width: 1158px) {
+    .solution {
+        padding: 188px 0;
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url('../images/main/hero/hero-bg-min.jpg');
+    }
+
+    @media (min-resolution: 192dpi) {
+        .solution {
+            background-image:
+                linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+                url('../images/main/hero/hero-bg@2x-min.jpg');
+        }
+    }
+
+    .solution-title {
+        padding: 0;
+        max-width: 496px;
+        margin: 0 auto;
+    }
+
+    .solution-button {
+        margin-top: 48px;
+    }
+}
