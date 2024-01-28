@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.header-nav-href {
+    font-weight: 500;
+}
+
 @media (min-width: 768px) {
     .header-nav {
         height: 72px;
@@ -60,12 +64,16 @@
         flex-direction: column;
         gap: 12px;
     }
+
+    .header-addres-href {
+        font-size: 12px;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
 }
 
 @media (min-width: 1158px) {
-    .header {
-        max-width: 1440px;
-    }
 
     .header-nav {
         padding: 0 140px;
